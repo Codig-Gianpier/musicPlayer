@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="text-2xl text-green-800">
-      <router-link to="/"> <p>retroceder</p> </router-link>
+      <router-link to="/"> <img class="ml-7 mt-2" src="@/assets/descarga.png" alt="" width="40" height="40" > </router-link>
     </div>
     <Spinner v-if="mostrar" />
     <div v-if="!mostrar">
