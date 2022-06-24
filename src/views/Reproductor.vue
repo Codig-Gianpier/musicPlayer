@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="text-2xl text-green-800">
-      <router-link to="/"> <p>atras</p> </router-link>
+      <router-link to="/"> <p>retroceder</p> </router-link>
     </div>
     <Spinner v-if="mostrar" />
     <div v-if="!mostrar">
